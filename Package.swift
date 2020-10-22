@@ -16,7 +16,7 @@ let package = Package(
         .target(
             name: "plcrashreporter-spm-repro",
             dependencies: [
-                .product(name: "PLCrashReporter", package: "PLCrashReporter"),
+                .product(name: "CrashReporter", package: "PLCrashReporter"),
             ]),
         .testTarget(
             name: "plcrashreporter-spm-reproTests",
